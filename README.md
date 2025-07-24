@@ -8,9 +8,11 @@
 ## ディレクトリ構成
 
 ```
-─┬README.MD
- └docs-┬01_業務ドメイン
-       └02_システム設計 ── er_diagram.md
+─┬ README.MD
+ ├ docs ─┬ 01_業務ドメイン
+ │       └ 02_システム設計 ── er_diagram.md
+ └.github ── PULL_REQUEST_TEMPLATE ─┬ bugfix.md // バグ修正用テンプレート
+                                    └ feature.md // プルリク用テンプレート
 ```
 
 ## 環境構築
