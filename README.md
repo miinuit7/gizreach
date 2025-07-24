@@ -10,7 +10,8 @@
 ```
 ─┬ README.MD
  ├ docs ─┬ 01_業務ドメイン
- │       └ 02_システム設計 ── er_diagram.md
+ │       └ 02_システム設計 ─┬ er_diagram.md // 初版 ER図
+ │                         └ ph1_er_diagram.md // Ph1用 ER図
  └.github ── PULL_REQUEST_TEMPLATE ─┬ bugfix.md // バグ修正用テンプレート
                                     └ feature.md // プルリク用テンプレート
 ```
